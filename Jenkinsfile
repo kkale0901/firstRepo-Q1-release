@@ -12,7 +12,7 @@ stages{
 stage("clone_project"){
 
 steps{
-sh "rm -rf firstRepo-Q1-release/index.html /var/www/html*"
+sh "rm -rf firstRepo-Q1-release/index.html*"
 sh "git clone https://github.com/kkale0901/firstRepo-Q1-release.git"
 }
 }
